@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS scramble_word;
-USE scramble_word;
+CREATE DATABASE IF NOT EXISTS guess_word;
+USE guess_word;
 CREATE TABLE IF NOT EXISTS users (
     userID int(11) NOT NULL AUTO_INCREMENT,
     userName VARCHAR(500) NOT NULL,
