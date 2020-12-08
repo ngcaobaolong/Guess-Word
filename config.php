@@ -3,7 +3,7 @@ session_start();
 $servername = "localhost";
 $username = "root";
 $password = "Long2542k@";
-$dbname = "scramble_word";
+$dbname = "guess_word";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
