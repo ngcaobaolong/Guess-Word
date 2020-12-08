@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS scramble_word;
+USE scramble_word;
+CREATE TABLE IF NOT EXISTS users (
+    userID int(11) NOT NULL AUTO_INCREMENT,
+    userName VARCHAR(500) NOT NULL,
+    userEmail VARCHAR(500) NOT NULL,
+    userPassword VARCHAR(500) NOT NULL,
+    userPoint int(11) NOT NULL DEFAULT 0,
+    PRIMARY KEY (userID)
+);
+CREATE TABLE IF NOT EXISTS words (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    word VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+);
