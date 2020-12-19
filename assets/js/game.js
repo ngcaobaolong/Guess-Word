@@ -257,7 +257,7 @@
     }
 
   };
-  $.getJSON('http://localhost/production/words.php?number=10', function (words) {
+  $.getJSON('words.php?number=10', function (words) {
     Hangman.init(words);
   });
 
